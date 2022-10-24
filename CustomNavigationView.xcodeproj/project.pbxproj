@@ -11,6 +11,7 @@
 		A23ECFD42905891E008FA773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A23ECFD32905891E008FA773 /* Assets.xcassets */; };
 		A23ECFD72905891E008FA773 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A23ECFD62905891E008FA773 /* Preview Assets.xcassets */; };
 		A23ECFDE290589B4008FA773 /* NavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23ECFDD290589B4008FA773 /* NavBarView.swift */; };
+		A23ECFE029058B9A008FA773 /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23ECFDF29058B9A008FA773 /* CustomNavBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A23ECFD32905891E008FA773 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A23ECFD62905891E008FA773 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A23ECFDD290589B4008FA773 /* NavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarView.swift; sourceTree = "<group>"; };
+		A23ECFDF29058B9A008FA773 /* CustomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				A23ECFCF2905891C008FA773 /* CustomNavigationViewApp.swift */,
 				A23ECFDD290589B4008FA773 /* NavBarView.swift */,
+				A23ECFDF29058B9A008FA773 /* CustomNavBarView.swift */,
 				A23ECFD32905891E008FA773 /* Assets.xcassets */,
 				A23ECFD52905891E008FA773 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A23ECFE029058B9A008FA773 /* CustomNavBarView.swift in Sources */,
 				A23ECFDE290589B4008FA773 /* NavBarView.swift in Sources */,
 				A23ECFD02905891C008FA773 /* CustomNavigationViewApp.swift in Sources */,
 			);

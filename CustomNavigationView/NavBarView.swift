@@ -15,11 +15,14 @@ struct NavBarView: View {
                 
                 NavigationLink {
                     Text("Destination")
+                        .navigationTitle("title 2")
+                        .navigationBarBackButtonHidden(false)
                 } label: {
                     Text("Navigate")
                 }
-
+                
             }
+            .navigationTitle("Nav title here")
         }
     }
 }
